@@ -218,7 +218,7 @@ To run this project, you will need to add the following environment variables to
 
 `PORT = number #recommended:5000`
 
-`NODE_ENV=development`
+`MODE=test`
 
 <b>Back-end .env.test file</b>
 
@@ -226,7 +226,7 @@ To run this project, you will need to add the following environment variables to
 
 `PORT = number #recommended:5000`
 
-`NODE_ENV=test`
+`MODE=test`
 
 <b>Front-end .env file</b>
 
@@ -240,13 +240,13 @@ To run this project, you will need to add the following environment variables to
 Clone the project
 
 ```bash
-  git clone https://github.com/thalesgomest/sing-me-a-song.git
+  git clone https://github.com/jogoce18/-sing-me-a-song-testes.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd sing-me-a-song/
+  cd sing-me-a-song-main  /
 ```
 
 Install dependencies
@@ -271,7 +271,7 @@ Start the server
 Go to the back-end project directory
 
 ```bash
-  cd sing-me-a-song/back-end
+  cd sing-me-a-song-main/back-end
 ```
 Install dependencies
 
@@ -310,7 +310,7 @@ For run both tests: unitary and integration
 Go to the back-end project directory and up the server
 
 ```bash
-  cd sing-me-a-song/back-end
+  cd sing-me-a-song-main/back-end
 ```
 ```bash
   npm run dev
@@ -319,7 +319,7 @@ Go to the back-end project directory and up the server
 Go to the front-end project directory
 
 ```bash
-  cd sing-me-a-song/front-end
+  cd sing-me-a-song-main/front-end
 ```
 Install dependencies
 
