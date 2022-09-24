@@ -13,8 +13,8 @@ beforeEach(async () => {
 //TODO: Create a scenario with 4 recommendations
 const agent = supertest.agent(app);
 
-describe("🌱 ~ POST /recommendations", () => {
-  it("✨ 201 ~ Create a new recommendation", async () => {
+describe(" POST /recommendations", () => {
+  it(" Create a new recommendation", async () => {
     const body = recommendationFactory();
 
     const response = await agent.post("/recommendations").send(body);
